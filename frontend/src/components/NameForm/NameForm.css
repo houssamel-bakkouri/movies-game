@@ -1,0 +1,133 @@
+.name_form {
+    padding: 10px 120px; 
+  }
+  
+  .name_form-input {
+      width: 400px;
+      height: auto;
+      background: white;
+      position: relative;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    .form-element-input {
+      position: relative;
+      outline: none;
+      height: 1.5rem;
+      display: block;
+      background: none;
+      padding: 0.125rem 0.125rem 0.0625rem;
+      font-size: 1rem;
+      border: 0;
+      line-height: 1.5rem;
+      width: 100%;
+      color: #333;
+      box-shadow: none;
+      opacity: 0.001;
+      transition: opacity 0.28s ease;
+      will-change: opacity;
+    }
+    
+    .form-element-input::placeholder {
+      color: #a6a6a6;
+      transform: scale(0.9);
+      transform-origin: left top;
+    }
+    
+    .form-element-bar {
+      height: 1px;
+      background: #999;
+      position: relative;
+      display: block;
+    }
+    
+    .form-element-bar:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: #337ab7;
+      height: 2.5px;
+      display: block;
+      transform: rotateY(90deg);
+      transition: transform .28s ease;
+      will-change: transform;
+    }
+    
+    .form-element-label {
+      position: absolute;
+      left: 0.1rem;
+      top: 0.85rem;
+      line-height: 1.5rem;
+      pointer-events: none;
+      padding-left: 0.125rem;
+      z-index: 1;
+      font-size: 1rem;
+      margin: 0;
+      color: #a6a6a6;
+      transform: translateY(-50%);
+      transform-origin: left center;
+      transition: transform .28s ease, color .28s linear, opacity .28s linear;
+      will-change: transform, color, opacity;
+      cursor: text;
+    }
+    
+    .form-element-hint {
+      color: #aaa;
+    }
+    
+    
+    
+    
+    .form-element-input.hasValue ~ .form-element-bar::after,
+    .form-element-input:focus ~ .form-element-bar::after {
+      transform: rotateY(0deg);
+    }
+    .form-element-input.hasValue ~ .form-element-label,
+    .form-element-input:focus ~ .form-element-label {
+      color: #337ab7;
+    }
+    .form-element-input.hasValue,
+    .form-element-input:focus {
+      opacity: 1;
+    }
+    .form-element-input.hasValue ~ .form-element-label,
+    .form-element-input:focus ~ .form-element-label {
+      transform: translateY(-100%) translateY(-0.5em) translateY(-2px);
+      cursor: pointer;
+      pointer-events: auto;
+    }
+    
+   .Submit_button{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 20%;
+    left: 0%;
+    
+    width: 170px;
+    height: 40px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid #8C82FC;
+    background: #fff;
+    color: #8C82FC;
+    border-radius: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s;
+  }
+  
+  .Submit_button:hover{
+    background: #8C82FC;
+    color: #fff;
+  }
+  
+  .Submit_button span{
+    opacity: 1;
+    visibility: visible;
+    transition: all .35s;
+  }
+  
