@@ -4,9 +4,9 @@ This is a fun and engaging movie trivia game built with React JS, styled with Ma
 
 ## Features
 
-Challenging Trivia: Test your knowledge of movies by answering a variety of questions.
-Score Tracking: Keep track of your progress and see how well you perform.
-Movie Data Integration: Leverage the TMDBv API to ensure question accuracy and potentially display movie-related visuals.
+- **Challenging Trivia:** Test your knowledge of movies by answering a variety of questions.
+- **Score Tracking:** Keep track of your progress and see how well you perform.
+- **Movie Data Integration:** Leverage the TMDBv API to ensure question accuracy and potentially display movie-related visuals.
 
 ## Technologies
 
