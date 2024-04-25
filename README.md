@@ -10,9 +10,9 @@ This is a fun and engaging movie trivia game built with React JS, styled with Ma
 
 ## Technologies
 
-Frontend: React JS
-Styling: Material-UI (MUI)
-API: TMDBv API (for movie data)
+- Frontend: React JS
+- Styling: Material-UI (MUI)
+- API: TMDBv API (for movie data)
 
 ## Getting Started
 
